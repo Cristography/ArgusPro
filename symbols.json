@@ -1,0 +1,2437 @@
+[
+  {
+    "id": 1,
+    "category": "Classical Logic",
+    "symbol": "¬",
+    "name": "Negation, Not",
+    "meaning": "The logical opposite of a statement. If P is true, ¬P is false.",
+    "example": "It is not raining outside.",
+    "aliases": [
+      "NOT",
+      "~",
+      "!"
+    ],
+    "unicode": "U+00AC"
+  },
+  {
+    "id": 2,
+    "category": "Classical Logic",
+    "symbol": "∧",
+    "name": "Conjunction, And",
+    "meaning": "True only if both connected statements are true.",
+    "example": "The sun is shining and the birds are singing.",
+    "aliases": [
+      "AND",
+      "&",
+      "&&"
+    ],
+    "unicode": "U+2227"
+  },
+  {
+    "id": 3,
+    "category": "Classical Logic",
+    "symbol": "∨",
+    "name": "Disjunction, Or",
+    "meaning": "True if at least one of the connected statements is true.",
+    "example": "For lunch, I will have a sandwich or a salad.",
+    "aliases": [
+      "OR",
+      "|",
+      "||"
+    ],
+    "unicode": "U+2228"
+  },
+  {
+    "id": 4,
+    "category": "Classical Logic",
+    "symbol": "⊕",
+    "name": "Exclusive Disjunction, XOR",
+    "meaning": "True if exactly one of the connected statements is true, but not both.",
+    "example": "You can have either the soup or the salad, but not both.",
+    "aliases": [
+      "XOR",
+      "EOR",
+      "⊻"
+    ],
+    "unicode": "U+2295"
+  },
+  {
+    "id": 5,
+    "category": "Classical Logic",
+    "symbol": "→",
+    "name": "Material Conditional, If...then...",
+    "meaning": "If P, then Q. False only when P is true and Q is false.",
+    "example": "If you press the button, then the light will turn on.",
+    "aliases": [
+      "implies",
+      "⇒",
+      "⊃"
+    ],
+    "unicode": "U+2192"
+  },
+  {
+    "id": 6,
+    "category": "Classical Logic",
+    "symbol": "↔",
+    "name": "Biconditional, If and only if (iff)",
+    "meaning": "True if both statements have the same truth value.",
+    "example": "You can vote if and only if you are a registered citizen.",
+    "aliases": [
+      "iff",
+      "⇔",
+      "≡"
+    ],
+    "unicode": "U+2194"
+  },
+  {
+    "id": 7,
+    "category": "Classical Logic",
+    "symbol": "⊤",
+    "name": "Tautology, Top, Verum",
+    "meaning": "A statement that is always true.",
+    "example": "Either the team will win or the team will not win.",
+    "aliases": [
+      "T",
+      "true",
+      "1"
+    ],
+    "unicode": "U+22A4"
+  },
+  {
+    "id": 8,
+    "category": "Classical Logic",
+    "symbol": "⊥",
+    "name": "Contradiction, Bottom, Falsum",
+    "meaning": "A statement that is always false.",
+    "example": "My car is completely red and my car is completely blue.",
+    "aliases": [
+      "F",
+      "false",
+      "0"
+    ],
+    "unicode": "U+22A5"
+  },
+  {
+    "id": 9,
+    "category": "Classical Logic",
+    "symbol": "⊢",
+    "name": "Turnstile, Provable",
+    "meaning": "The statement on the right can be formally proven from the statements on the left.",
+    "example": "From the given axioms, we can prove the theorem.",
+    "aliases": [
+      "proves"
+    ],
+    "unicode": "U+22A2"
+  },
+  {
+    "id": 10,
+    "category": "Classical Logic",
+    "symbol": "⊨",
+    "name": "Double Turnstile, Models, Entails",
+    "meaning": "The statement on the right is a logical consequence of the statements on the left.",
+    "example": "The premises 'All humans are mortal' and 'Socrates is a human' logically imply 'Socrates is mortal'.",
+    "aliases": [
+      "models",
+      "entails"
+    ],
+    "unicode": "U+22A8"
+  },
+  {
+    "id": 11,
+    "category": "Classical Logic",
+    "symbol": "⊭",
+    "name": "Does not model",
+    "meaning": "The statement on the right is not a logical consequence of the statement on the left.",
+    "example": "The fact that the grass is wet does not logically imply that it rained; it could have been sprinklers.",
+    "aliases": [],
+    "unicode": "U+22AD"
+  },
+  {
+    "id": 12,
+    "category": "Classical Logic",
+    "symbol": "⊬",
+    "name": "Not provable",
+    "meaning": "The statement on the right cannot be formally proven from the statements on the left.",
+    "example": "It is not provable from the axioms that the project will finish on time.",
+    "aliases": [],
+    "unicode": "U+22AC"
+  },
+  {
+    "id": 13,
+    "category": "Classical Logic",
+    "symbol": "∴",
+    "name": "Therefore",
+    "meaning": "Indicates a conclusion.",
+    "example": "All birds have feathers; a robin is a bird; therefore, a robin has feathers.",
+    "aliases": [],
+    "unicode": "U+2234"
+  },
+  {
+    "id": 14,
+    "category": "Classical Logic",
+    "symbol": "∵",
+    "name": "Because, Since",
+    "meaning": "Indicates a reason or premise.",
+    "example": "The ground is wet because it has been raining.",
+    "aliases": [],
+    "unicode": "U+2235"
+  },
+  {
+    "id": 15,
+    "category": "Classical Logic",
+    "symbol": "↑",
+    "name": "NAND, Sheffer Stroke",
+    "meaning": "Not And. False only if both statements are true.",
+    "example": "It is not the case that I have both time and money for a vacation right now.",
+    "aliases": [
+      "NAND",
+      "|"
+    ],
+    "unicode": "U+2191"
+  },
+  {
+    "id": 16,
+    "category": "Classical Logic",
+    "symbol": "↓",
+    "name": "NOR, Peirce Arrow",
+    "meaning": "Not Or. True only if both statements are false.",
+    "example": "He wants neither fame nor fortune.",
+    "aliases": [
+      "NOR"
+    ],
+    "unicode": "U+2193"
+  },
+  {
+    "id": 17,
+    "category": "Classical Logic",
+    "symbol": "⊼",
+    "name": "NAND, Sheffer Stroke",
+    "meaning": "Not And. False only if both statements are true.",
+    "example": "It is not the case that I have both time and money for a vacation right now.",
+    "aliases": [
+      "NAND"
+    ],
+    "unicode": "U+22BC"
+  },
+  {
+    "id": 18,
+    "category": "Classical Logic",
+    "symbol": "⊽",
+    "name": "NOR, Peirce Arrow",
+    "meaning": "Not Or. True only if both statements are false.",
+    "example": "He wants neither fame nor fortune.",
+    "aliases": [
+      "NOR"
+    ],
+    "unicode": "U+22BD"
+  },
+  {
+    "id": 19,
+    "category": "Predicate Logic",
+    "symbol": "∀",
+    "name": "Universal Quantifier, For all",
+    "meaning": "The statement is true for every element in a domain.",
+    "example": "All cats have whiskers.",
+    "aliases": [
+      "for all"
+    ],
+    "unicode": "U+2200"
+  },
+  {
+    "id": 20,
+    "category": "Predicate Logic",
+    "symbol": "∃",
+    "name": "Existential Quantifier, There exists",
+    "meaning": "There is at least one element in a domain for which the statement is true.",
+    "example": "There is a key that opens this door.",
+    "aliases": [
+      "exists"
+    ],
+    "unicode": "U+2203"
+  },
+  {
+    "id": 21,
+    "category": "Predicate Logic",
+    "symbol": "∄",
+    "name": "Non-existence, There does not exist",
+    "meaning": "There is no element in a domain for which the statement is true.",
+    "example": "There is no perfect solution to this problem.",
+    "aliases": [
+      "does not exist"
+    ],
+    "unicode": "U+2204"
+  },
+  {
+    "id": 22,
+    "category": "Predicate Logic",
+    "symbol": "∃!",
+    "name": "Uniqueness Quantifier, There exists exactly one",
+    "meaning": "There is one and only one element for which the statement is true.",
+    "example": "There is exactly one winner in the race.",
+    "aliases": [
+      "exists one"
+    ],
+    "unicode": "U+2203 U+0021"
+  },
+  {
+    "id": 23,
+    "category": "Modal Logic",
+    "symbol": "□",
+    "name": "Box, Necessity",
+    "meaning": "The statement is necessarily true (true in all possible worlds).",
+    "example": "It is necessary that squares have four sides.",
+    "aliases": [
+      "necessarily"
+    ],
+    "unicode": "U+25A1"
+  },
+  {
+    "id": 24,
+    "category": "Modal Logic",
+    "symbol": "◇",
+    "name": "Diamond, Possibility",
+    "meaning": "The statement is possibly true (true in at least one possible world).",
+    "example": "It is possible that we will go to the movies tonight.",
+    "aliases": [
+      "possibly"
+    ],
+    "unicode": "U+25C7"
+  },
+  {
+    "id": 25,
+    "category": "Modal Logic",
+    "symbol": "◇¬",
+    "name": "Contingent, Possibly Not",
+    "meaning": "It is possible for the statement to be false.",
+    "example": "It is possible that I will not pass the exam if I don't study.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 26,
+    "category": "Modal Logic",
+    "symbol": "¬□",
+    "name": "Not Necessary, Contingent",
+    "meaning": "The statement is not necessarily true (equivalent to ◇¬).",
+    "example": "It is not necessary for you to attend the meeting, but it is encouraged.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 27,
+    "category": "Temporal Logic",
+    "symbol": "G",
+    "name": "Globally, Always (Gφ)",
+    "meaning": "The statement φ is true now and at all future times.",
+    "example": "The network connection must always be active.",
+    "aliases": [
+      "always"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 28,
+    "category": "Temporal Logic",
+    "symbol": "F",
+    "name": "Finally, Eventually (Fφ)",
+    "meaning": "The statement φ will be true at some point in the future.",
+    "example": "Your package will eventually be delivered.",
+    "aliases": [
+      "eventually"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 29,
+    "category": "Temporal Logic",
+    "symbol": "H",
+    "name": "Historically (Hφ)",
+    "meaning": "The statement φ has been true at all points in the past.",
+    "example": "The vault has always been secure.",
+    "aliases": [
+      "has always been"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 30,
+    "category": "Temporal Logic",
+    "symbol": "P",
+    "name": "Previously, Once (Pφ)",
+    "meaning": "The statement φ was true at some point in the past.",
+    "example": "An error once occurred in the system.",
+    "aliases": [
+      "once"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 31,
+    "category": "Temporal Logic",
+    "symbol": "X",
+    "name": "Next (Xφ)",
+    "meaning": "The statement φ will be true in the very next time step.",
+    "example": "The light will turn green at the next state.",
+    "aliases": [
+      "next"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 32,
+    "category": "Temporal Logic",
+    "symbol": "U",
+    "name": "Until",
+    "meaning": "A statement φ holds true until a statement ψ becomes true.",
+    "example": "The alarm will stay on until the system is reset.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 33,
+    "category": "Deontic Logic",
+    "symbol": "O",
+    "name": "Obligation (Oφ)",
+    "meaning": "It is obligatory that φ; you ought to do φ.",
+    "example": "It is obligatory to wear a seatbelt.",
+    "aliases": [
+      "ought"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 34,
+    "category": "Deontic Logic",
+    "symbol": "P",
+    "name": "Permission (Pφ)",
+    "meaning": "It is permissible to do φ.",
+    "example": "It is permissible to take photos here.",
+    "aliases": [
+      "may"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 35,
+    "category": "Deontic Logic",
+    "symbol": "F",
+    "name": "Forbidden (Fφ)",
+    "meaning": "It is forbidden to do φ.",
+    "example": "It is forbidden to smoke indoors.",
+    "aliases": [
+      "must not"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 36,
+    "category": "Epistemic Logic",
+    "symbol": "Kₐφ",
+    "name": "Knowledge (Agent a knows φ)",
+    "meaning": "Agent 'a' knows that statement φ is true.",
+    "example": "Alice knows that it is Monday.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 37,
+    "category": "Epistemic Logic",
+    "symbol": "Bₐφ",
+    "name": "Belief (Agent a believes φ)",
+    "meaning": "Agent 'a' believes that statement φ is true.",
+    "example": "Bob believes that his team will win.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 38,
+    "category": "Epistemic Logic",
+    "symbol": "C_Gφ",
+    "name": "Common Knowledge (in Group G)",
+    "meaning": "Everyone in group G knows φ, knows that everyone knows φ, etc.",
+    "example": "It is common knowledge among the staff that the meeting is mandatory.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 39,
+    "category": "Set Theory",
+    "symbol": "∈",
+    "name": "Element of, In",
+    "meaning": "An object is a member of a set.",
+    "example": "Canada is an element of the set of North American countries.",
+    "aliases": [
+      "in"
+    ],
+    "unicode": "U+2208"
+  },
+  {
+    "id": 40,
+    "category": "Set Theory",
+    "symbol": "∉",
+    "name": "Not an element of",
+    "meaning": "An object is not a member of a set.",
+    "example": "A carrot is not an element of the set of fruits.",
+    "aliases": [
+      "not in"
+    ],
+    "unicode": "U+2209"
+  },
+  {
+    "id": 41,
+    "category": "Set Theory",
+    "symbol": "⊆",
+    "name": "Subset",
+    "meaning": "All elements of the first set are also in the second set.",
+    "example": "The set of dogs is a subset of the set of mammals.",
+    "aliases": [
+      "is a subset of"
+    ],
+    "unicode": "U+2286"
+  },
+  {
+    "id": 42,
+    "category": "Set Theory",
+    "symbol": "⊂",
+    "name": "Proper Subset",
+    "meaning": "The first set is a subset of the second, but is not equal to it.",
+    "example": "The set of even numbers is a proper subset of the set of all integers.",
+    "aliases": [
+      "is a proper subset of"
+    ],
+    "unicode": "U+2282"
+  },
+  {
+    "id": 43,
+    "category": "Set Theory",
+    "symbol": "⊇",
+    "name": "Superset",
+    "meaning": "The first set contains all elements of the second set.",
+    "example": "The set of mammals is a superset of the set of dogs.",
+    "aliases": [
+      "is a superset of"
+    ],
+    "unicode": "U+2287"
+  },
+  {
+    "id": 44,
+    "category": "Set Theory",
+    "symbol": "⊃",
+    "name": "Proper Superset",
+    "meaning": "The first set is a superset of the second, but is not equal to it.",
+    "example": "The set of all integers is a proper superset of the set of even numbers.",
+    "aliases": [
+      "is a proper superset of"
+    ],
+    "unicode": "U+2283"
+  },
+  {
+    "id": 45,
+    "category": "Set Theory",
+    "symbol": "∅",
+    "name": "Empty Set, Null Set",
+    "meaning": "The set that contains no elements.",
+    "example": "The set of all fish that can fly is the empty set.",
+    "aliases": [
+      "{}",
+      "null set"
+    ],
+    "unicode": "U+2205"
+  },
+  {
+    "id": 46,
+    "category": "Set Theory",
+    "symbol": "{ }",
+    "name": "The Empty Set, Set Braces",
+    "meaning": "The set that contains no elements. Also used to define sets.",
+    "example": "The list of my pet dragons is { }.",
+    "aliases": [
+      "∅"
+    ],
+    "unicode": "U+007B U+007D"
+  },
+  {
+    "id": 47,
+    "category": "Set Theory",
+    "symbol": "∩",
+    "name": "Intersection",
+    "meaning": "The set of elements that are common to both sets.",
+    "example": "The intersection of the morning shift and the evening shift is empty.",
+    "aliases": [],
+    "unicode": "U+2229"
+  },
+  {
+    "id": 48,
+    "category": "Set Theory",
+    "symbol": "∪",
+    "name": "Union",
+    "meaning": "The set of all elements that are in at least one of the sets.",
+    "example": "The team is the union of the design department and the marketing department.",
+    "aliases": [],
+    "unicode": "U+222A"
+  },
+  {
+    "id": 49,
+    "category": "Set Theory",
+    "symbol": "\\",
+    "name": "Set Difference",
+    "meaning": "The set of elements in the first set but not in the second.",
+    "example": "The set of all students minus the set of students who passed gives you those who failed.",
+    "aliases": [
+      "-"
+    ],
+    "unicode": "U+2216"
+  },
+  {
+    "id": 50,
+    "category": "Set Theory",
+    "symbol": "×",
+    "name": "Cartesian Product",
+    "meaning": "The set of all possible ordered pairs from two sets.",
+    "example": "A standard deck of cards is the Cartesian product of ranks and suits.",
+    "aliases": [],
+    "unicode": "U+00D7"
+  },
+  {
+    "id": 51,
+    "category": "Set Theory",
+    "symbol": "℘",
+    "name": "Power Set",
+    "meaning": "The set of all possible subsets of a set.",
+    "example": "All possible pizza topping combinations come from the power set of available toppings.",
+    "aliases": [
+      "P()"
+    ],
+    "unicode": "U+2118"
+  },
+  {
+    "id": 52,
+    "category": "Set Theory",
+    "symbol": "|A|",
+    "name": "Cardinality, Size of A",
+    "meaning": "The number of elements in set A.",
+    "example": "The cardinality of the set of continents is 7.",
+    "aliases": [
+      "card(A)",
+      "#A"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 53,
+    "category": "Lattice Theory",
+    "symbol": "⊥",
+    "name": "Bottom element, Minimum",
+    "meaning": "The smallest element in a partially ordered set.",
+    "example": "In the set of divisors of 12 ordered by divisibility, 1 is the bottom element.",
+    "aliases": [
+      "minimum"
+    ],
+    "unicode": "U+22A5"
+  },
+  {
+    "id": 54,
+    "category": "Lattice Theory",
+    "symbol": "⊤",
+    "name": "Top element, Maximum",
+    "meaning": "The largest element in a partially ordered set.",
+    "example": "In the set of divisors of 12 ordered by divisibility, 12 is the top element.",
+    "aliases": [
+      "maximum"
+    ],
+    "unicode": "U+22A4"
+  },
+  {
+    "id": 55,
+    "category": "Order Theory",
+    "symbol": "≺",
+    "name": "Precedes",
+    "meaning": "An element comes before another in a strict partial order.",
+    "example": "In the project plan, the 'Design' phase precedes the 'Build' phase.",
+    "aliases": [
+      "<"
+    ],
+    "unicode": "U+227A"
+  },
+  {
+    "id": 56,
+    "category": "Order Theory",
+    "symbol": "≻",
+    "name": "Succeeds",
+    "meaning": "An element comes after another in a strict partial order.",
+    "example": "In the project plan, the 'Test' phase succeeds the 'Build' phase.",
+    "aliases": [
+      ">"
+    ],
+    "unicode": "U+227B"
+  },
+  {
+    "id": 57,
+    "category": "Identity & Relations",
+    "symbol": "=",
+    "name": "Is equal to",
+    "meaning": "The two objects are identical or have the same value.",
+    "example": "Two plus two is equal to four.",
+    "aliases": [
+      "=="
+    ],
+    "unicode": "U+003D"
+  },
+  {
+    "id": 58,
+    "category": "Identity & Relations",
+    "symbol": "≠",
+    "name": "Is not equal to",
+    "meaning": "The two objects are not identical or do not have the same value.",
+    "example": "A square is not equal to a circle.",
+    "aliases": [
+      "!="
+    ],
+    "unicode": "U+2260"
+  },
+  {
+    "id": 59,
+    "category": "Identity & Relations",
+    "symbol": "≡",
+    "name": "Is congruent to, Is equivalent to",
+    "meaning": "Two objects are equivalent in some sense (e.g., in modular arithmetic or by definition).",
+    "example": "A triangle is defined as a polygon with three sides.",
+    "aliases": [
+      "==="
+    ],
+    "unicode": "U+2261"
+  },
+  {
+    "id": 60,
+    "category": "Identity & Relations",
+    "symbol": "≢",
+    "name": "Not identical to",
+    "meaning": "Two objects are not identical or congruent.",
+    "example": "Although they look similar, this shape is not identical to that one.",
+    "aliases": [],
+    "unicode": "U+2262"
+  },
+  {
+    "id": 61,
+    "category": "Identity & Relations",
+    "symbol": "≈",
+    "name": "Is approximately equal to",
+    "meaning": "The two values are very close to each other.",
+    "example": "The population of the city is approximately equal to 1.5 million.",
+    "aliases": [
+      "~="
+    ],
+    "unicode": "U+2248"
+  },
+  {
+    "id": 62,
+    "category": "Identity & Relations",
+    "symbol": "≅",
+    "name": "Is isomorphic to, Is congruent to",
+    "meaning": "Two structures are fundamentally the same, or two shapes are the same size and shape.",
+    "example": "This triangle is congruent to that one; you can place it directly on top.",
+    "aliases": [],
+    "unicode": "U+2245"
+  },
+  {
+    "id": 63,
+    "category": "Identity & Relations",
+    "symbol": "≝",
+    "name": "Is defined as",
+    "meaning": "The term on the left is being defined by the expression on the right.",
+    "example": "Let 'c' be defined as the speed of light.",
+    "aliases": [
+      "def="
+    ],
+    "unicode": "U+225D"
+  },
+  {
+    "id": 64,
+    "category": "Identity & Relations",
+    "symbol": ":=",
+    "name": "Assignment, Is defined as",
+    "meaning": "The term on the left is being defined or assigned the value on the right.",
+    "example": "Let the variable 'score' be assigned the value 100.",
+    "aliases": [
+      "="
+    ],
+    "unicode": "U+2254"
+  },
+  {
+    "id": 65,
+    "category": "Identity & Relations",
+    "symbol": "~",
+    "name": "Is related to, Equivalence relation",
+    "meaning": "Indicates that two objects are related by some equivalence relation.",
+    "example": "Having the same birthday is an equivalence relation among people.",
+    "aliases": [],
+    "unicode": "U+007E"
+  },
+  {
+    "id": 66,
+    "category": "Identity & Relations",
+    "symbol": "∼",
+    "name": "Is related to, Proportional to",
+    "meaning": "Indicates that two objects are related by some equivalence or similarity relation.",
+    "example": "As a rule of thumb, the cost of the repair is related to the age of the car.",
+    "aliases": [],
+    "unicode": "U+223C"
+  },
+  {
+    "id": 67,
+    "category": "Probability & Statistics",
+    "symbol": "P(A)",
+    "name": "Probability of event A",
+    "meaning": "The likelihood of event A occurring.",
+    "example": "The probability of flipping heads on a fair coin is 50%.",
+    "aliases": [
+      "Pr(A)"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 68,
+    "category": "Probability & Statistics",
+    "symbol": "P(A|B)",
+    "name": "Conditional Probability",
+    "meaning": "The probability of event A occurring given that event B has already occurred.",
+    "example": "The probability of it being cloudy, given that it is raining, is very high.",
+    "aliases": [
+      "Pr(A|B)"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 69,
+    "category": "Probability & Statistics",
+    "symbol": "Aᶜ",
+    "name": "Complementary Event",
+    "meaning": "The event that A does not occur.",
+    "example": "If A is 'rolling a 6', then Aᶜ is 'rolling a 1, 2, 3, 4, or 5'.",
+    "aliases": [
+      "A'",
+      "¬A"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 70,
+    "category": "Probability & Statistics",
+    "symbol": "∝",
+    "name": "Is proportional to",
+    "meaning": "One quantity is a constant multiple of another.",
+    "example": "The amount of paint needed is proportional to the area of the wall.",
+    "aliases": [],
+    "unicode": "U+221D"
+  },
+  {
+    "id": 71,
+    "category": "Probability & Statistics",
+    "symbol": "E[X]",
+    "name": "Expected Value of X",
+    "meaning": "The long-run average value of a random variable X.",
+    "example": "The expected value of a single roll of a standard die is 3.5.",
+    "aliases": [
+      "μ"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 72,
+    "category": "Probability & Statistics",
+    "symbol": "Var(X)",
+    "name": "Variance of X",
+    "meaning": "A measure of how spread out the values of a random variable X are.",
+    "example": "The two classes have the same average score, but the variance is higher in the second class, meaning the scores are more spread out.",
+    "aliases": [
+      "σ²"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 73,
+    "category": "Probability & Statistics",
+    "symbol": "σ",
+    "name": "Standard Deviation",
+    "meaning": "The square root of the variance, a measure of data spread.",
+    "example": "The test scores had an average of 85 with a standard deviation of 5 points.",
+    "aliases": [
+      "StdDev"
+    ],
+    "unicode": "U+03C3"
+  },
+  {
+    "id": 74,
+    "category": "Probability & Statistics",
+    "symbol": "H(X)",
+    "name": "Entropy of X",
+    "meaning": "A measure of the uncertainty or randomness of a random variable.",
+    "example": "The entropy of a fair coin flip is higher than that of a biased coin, because the outcome is more uncertain.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 75,
+    "category": "Probability & Statistics",
+    "symbol": "I(X;Y)",
+    "name": "Mutual Information",
+    "meaning": "A measure of the shared information between two random variables.",
+    "example": "There is high mutual information between a person's height and their weight.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 76,
+    "category": "Probability & Statistics",
+    "symbol": "E[·|·]",
+    "name": "Conditional Expectation",
+    "meaning": "The expected value of one variable given the value of another.",
+    "example": "The conditional expectation of a student's final grade, given they passed the midterm, is higher than the overall average.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 77,
+    "category": "Lambda Calculus",
+    "symbol": "λx.E",
+    "name": "Lambda Abstraction, Function Definition",
+    "meaning": "An anonymous function that takes an argument 'x' and returns the expression 'E'.",
+    "example": "To double a number, you can use the function λx. x * 2.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 78,
+    "category": "Lambda Calculus",
+    "symbol": "(f x)",
+    "name": "Function Application",
+    "meaning": "Applying the function 'f' to the argument 'x'.",
+    "example": "Applying the 'square' function to '3' is written as (square 3).",
+    "aliases": [
+      "f(x)"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 79,
+    "category": "Lambda Calculus",
+    "symbol": "α → β",
+    "name": "Function Type",
+    "meaning": "A function that takes an input of type α and returns an output of type β.",
+    "example": "A function that takes an Integer and returns a String has the type Integer → String.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 80,
+    "category": "Lambda Calculus",
+    "symbol": "∘",
+    "name": "Function Composition",
+    "meaning": "Combines two functions into one; (f ∘ g)(x) = f(g(x)).",
+    "example": "The operation 'wash and dry' is a composition of the 'wash' function followed by the 'dry' function.",
+    "aliases": [],
+    "unicode": "U+2218"
+  },
+  {
+    "id": 81,
+    "category": "Lambda Calculus",
+    "symbol": "id",
+    "name": "Identity Function",
+    "meaning": "A function that returns its input unchanged; id(x) = x.",
+    "example": "The identity function for photocopying is a machine that outputs a perfect copy of the original document.",
+    "aliases": [
+      "I"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 82,
+    "category": "Miscellaneous",
+    "symbol": "↦",
+    "name": "Maps to",
+    "meaning": "Used in function definitions to show how an element is transformed.",
+    "example": "The function f(x) = x² maps the element 3 to the element 9.",
+    "aliases": [
+      "|->"
+    ],
+    "unicode": "U+21A6"
+  },
+  {
+    "id": 83,
+    "category": "Miscellaneous",
+    "symbol": "⇀",
+    "name": "Vector, Tends to",
+    "meaning": "Represents a vector or convergence in the weak sense.",
+    "example": "The force applied to the object is represented by a vector pointing right.",
+    "aliases": [],
+    "unicode": "U+21C0"
+  },
+  {
+    "id": 84,
+    "category": "Miscellaneous",
+    "symbol": "∮",
+    "name": "Contour Integral, Closed Line Integral",
+    "meaning": "An integral along a closed curve in the complex plane or a vector field.",
+    "example": "The closed line integral of a conservative field like gravity around any path is always zero.",
+    "aliases": [],
+    "unicode": "U+222E"
+  },
+  {
+    "id": 85,
+    "category": "Miscellaneous",
+    "symbol": "ℵ₀",
+    "name": "Aleph-naught",
+    "meaning": "The cardinality of the set of natural numbers; the smallest infinity.",
+    "example": "The number of integers is aleph-naught, a countably infinite amount.",
+    "aliases": [
+      "aleph-null",
+      "aleph-0"
+    ],
+    "unicode": "U+2135 U+2080"
+  },
+  {
+    "id": 86,
+    "category": "Miscellaneous",
+    "symbol": "ℵ₁",
+    "name": "Aleph-one",
+    "meaning": "The cardinality of the set of all countable ordinal numbers; the next infinity after ℵ₀.",
+    "example": "Under the continuum hypothesis, aleph-one is the size of the set of all real numbers.",
+    "aliases": [
+      "aleph-1"
+    ],
+    "unicode": "U+2135 U+2081"
+  },
+  {
+    "id": 87,
+    "category": "Calculus",
+    "symbol": "∂",
+    "name": "Partial Derivative",
+    "meaning": "The rate of change of a multi-variable function with respect to one of its variables.",
+    "example": "To find how a company's profit changes with just advertising costs, we'd take the partial derivative with respect to advertising.",
+    "aliases": [
+      "del"
+    ],
+    "unicode": "U+2202"
+  },
+  {
+    "id": 88,
+    "category": "Topology",
+    "symbol": "cl(A)",
+    "name": "Closure of A",
+    "meaning": "The smallest closed set containing the set A.",
+    "example": "The closure of the open interval (0, 1) is the closed interval [0, 1], which includes the endpoints.",
+    "aliases": [
+      "A-bar"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 89,
+    "category": "Miscellaneous",
+    "symbol": "⊗",
+    "name": "Tensor Product",
+    "meaning": "A complex way of 'multiplying' vector spaces or modules.",
+    "example": "The combined state of two quantum particles is represented by the tensor product of their individual states.",
+    "aliases": [],
+    "unicode": "U+2297"
+  },
+  {
+    "id": 90,
+    "category": "Miscellaneous",
+    "symbol": "⊕",
+    "name": "Direct Sum",
+    "meaning": "A way of combining mathematical structures (like groups or vector spaces) into a larger one.",
+    "example": "The 3D space we live in can be seen as the direct sum of three perpendicular lines (axes).",
+    "aliases": [],
+    "unicode": "U+2295"
+  },
+  {
+    "id": 91,
+    "category": "Topology",
+    "symbol": "A ⊂ int(B)",
+    "name": "Interior Subset",
+    "meaning": "A is a subset of the interior of B.",
+    "example": "The house itself is an interior subset of the entire fenced property.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 92,
+    "category": "Set Theory",
+    "symbol": "Δ",
+    "name": "Symmetric Difference",
+    "meaning": "The set of elements which are in either of the sets, but not in their intersection.",
+    "example": "The list of people who are subscribed to either the newspaper or the magazine, but not both, is the symmetric difference of the two subscriber lists.",
+    "aliases": [],
+    "unicode": "U+0394"
+  },
+  {
+    "id": 93,
+    "category": "Set Theory",
+    "symbol": "Aᶜ",
+    "name": "Complement",
+    "meaning": "The set of all elements in the universal set that are not in set A.",
+    "example": "If the universe is all students, the complement of students who passed is the set of students who failed.",
+    "aliases": [
+      "A'"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 94,
+    "category": "Set Theory",
+    "symbol": "⊔",
+    "name": "Disjoint Union",
+    "meaning": "The union of sets that are assumed to be disjoint (have no common elements).",
+    "example": "The total student body is the disjoint union of the freshmen, sophomores, juniors, and seniors.",
+    "aliases": [
+      "∐"
+    ],
+    "unicode": "U+2294"
+  },
+  {
+    "id": 95,
+    "category": "Number Theory",
+    "symbol": "|",
+    "name": "Divides",
+    "meaning": "a | b means 'a divides b', so b is a multiple of a.",
+    "example": "Since 3 divides 12, we can split 12 cookies evenly among 3 friends.",
+    "aliases": [],
+    "unicode": "U+007C"
+  },
+  {
+    "id": 96,
+    "category": "Number Theory",
+    "symbol": "∤",
+    "name": "Does not divide",
+    "meaning": "a ∤ b means 'a does not divide b'.",
+    "example": "Since 5 does not divide 12, we cannot split 12 cookies evenly among 5 friends without breaking them.",
+    "aliases": [],
+    "unicode": "U+2224"
+  },
+  {
+    "id": 97,
+    "category": "Number Theory",
+    "symbol": "gcd(a,b)",
+    "name": "Greatest Common Divisor",
+    "meaning": "The largest positive integer that divides both a and b.",
+    "example": "To simplify the fraction 12/18, we find the greatest common divisor of 12 and 18, which is 6.",
+    "aliases": [
+      "hcf(a,b)"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 98,
+    "category": "Number Theory",
+    "symbol": "lcm(a,b)",
+    "name": "Least Common Multiple",
+    "meaning": "The smallest positive integer that is a multiple of both a and b.",
+    "example": "If two gears with 8 and 12 teeth mesh, they will return to their starting position after the least common multiple of 8 and 12, which is 24 rotations.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 99,
+    "category": "Number Theory",
+    "symbol": "a ≡ b (mod n)",
+    "name": "Congruence modulo n",
+    "meaning": "a and b have the same remainder when divided by n.",
+    "example": "A 12-hour clock works with congruence modulo 12; 15 o'clock is congruent to 3 o'clock.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 100,
+    "category": "Calculus",
+    "symbol": "∫",
+    "name": "Integral",
+    "meaning": "Represents the area under a curve, or the accumulation of quantities.",
+    "example": "To find the total distance traveled from a velocity-time graph, we calculate the integral of the velocity function.",
+    "aliases": [],
+    "unicode": "U+222B"
+  },
+  {
+    "id": 101,
+    "category": "Calculus",
+    "symbol": "d/dx",
+    "name": "Derivative",
+    "meaning": "Measures the instantaneous rate of change of a function.",
+    "example": "The derivative of a position function gives you the instantaneous velocity of an object.",
+    "aliases": [
+      "'"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 102,
+    "category": "Calculus",
+    "symbol": "lim",
+    "name": "Limit",
+    "meaning": "The value that a function approaches as the input approaches some value.",
+    "example": "The limit of a car's speed as it brakes is zero.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 103,
+    "category": "Calculus",
+    "symbol": "∞",
+    "name": "Infinity",
+    "meaning": "An abstract concept describing something without any bound or larger than any real number.",
+    "example": "The set of all natural numbers is of infinite size.",
+    "aliases": [],
+    "unicode": "U+221E"
+  },
+  {
+    "id": 104,
+    "category": "Vector Calculus",
+    "symbol": "∇",
+    "name": "Nabla, Gradient",
+    "meaning": "The vector of partial derivatives, pointing in the direction of the greatest rate of increase of a scalar field.",
+    "example": "The gradient of a topographical map points directly uphill.",
+    "aliases": [
+      "del"
+    ],
+    "unicode": "U+2207"
+  },
+  {
+    "id": 105,
+    "category": "Vector Calculus",
+    "symbol": "Δ",
+    "name": "Laplace Operator, Laplacian",
+    "meaning": "The divergence of the gradient, used to model phenomena like diffusion and wave propagation.",
+    "example": "The heat equation uses the Laplacian to describe how temperature distributes over time.",
+    "aliases": [
+      "∇²"
+    ],
+    "unicode": "U+0394"
+  },
+  {
+    "id": 106,
+    "category": "Calculus",
+    "symbol": "Σ",
+    "name": "Summation",
+    "meaning": "The addition of a sequence of numbers.",
+    "example": "The total cost of your shopping list is the summation of the prices of all items.",
+    "aliases": [],
+    "unicode": "U+03A3"
+  },
+  {
+    "id": 107,
+    "category": "Calculus",
+    "symbol": "Π",
+    "name": "Product",
+    "meaning": "The multiplication of a sequence of numbers.",
+    "example": "The probability of several independent events all happening is the product of their individual probabilities.",
+    "aliases": [],
+    "unicode": "U+03A0"
+  },
+  {
+    "id": 108,
+    "category": "Linear Algebra",
+    "symbol": "v⃗",
+    "name": "Vector",
+    "meaning": "A mathematical object that has both magnitude and direction.",
+    "example": "The velocity of the wind can be represented by a vector, showing its speed and direction.",
+    "aliases": [
+      "v"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 109,
+    "category": "Linear Algebra",
+    "symbol": "Aᵀ",
+    "name": "Transpose",
+    "meaning": "A matrix obtained by flipping it over its main diagonal.",
+    "example": "In a spreadsheet, taking the transpose is like switching the rows and columns.",
+    "aliases": [
+      "A'"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 110,
+    "category": "Linear Algebra",
+    "symbol": "·",
+    "name": "Dot Product",
+    "meaning": "A scalar value that is the product of the magnitudes of two vectors and the cosine of the angle between them.",
+    "example": "The work done by a force is the dot product of the force vector and the displacement vector.",
+    "aliases": [
+      "⟨u, v⟩"
+    ],
+    "unicode": "U+00B7"
+  },
+  {
+    "id": 111,
+    "category": "Linear Algebra",
+    "symbol": "×",
+    "name": "Cross Product",
+    "meaning": "A vector that is perpendicular to two given vectors.",
+    "example": "The torque on a bolt from a wrench is calculated using the cross product of the force and the lever arm vector.",
+    "aliases": [],
+    "unicode": "U+00D7"
+  },
+  {
+    "id": 112,
+    "category": "Linear Algebra",
+    "symbol": "det(A)",
+    "name": "Determinant",
+    "meaning": "A scalar value that can be computed from the elements of a square matrix, representing the scaling factor of the linear transformation.",
+    "example": "If the determinant of a system of equations is zero, it means there is no unique solution.",
+    "aliases": [
+      "|A|"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 113,
+    "category": "Linear Algebra",
+    "symbol": "||v||",
+    "name": "Norm, Magnitude",
+    "meaning": "The length or size of a vector.",
+    "example": "The norm of a velocity vector is the object's speed.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 114,
+    "category": "Linear Algebra",
+    "symbol": "dim(V)",
+    "name": "Dimension",
+    "meaning": "The number of vectors in any basis for the vector space.",
+    "example": "The space we live in has a dimension of 3, because you need three coordinates (length, width, height) to specify a point.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 115,
+    "category": "Linear Algebra",
+    "symbol": "ker(f)",
+    "name": "Kernel",
+    "meaning": "The set of vectors that are mapped to the zero vector by a linear transformation.",
+    "example": "In a 3D to 2D projection, the kernel is the line of points that all collapse onto the origin.",
+    "aliases": [
+      "nullspace"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 116,
+    "category": "Linear Algebra",
+    "symbol": "im(f)",
+    "name": "Image",
+    "meaning": "The set of all possible output vectors of a linear transformation.",
+    "example": "The image of a 3D to 2D projection is the entire 2D plane that is being projected onto.",
+    "aliases": [
+      "range"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 117,
+    "category": "Linear Algebra",
+    "symbol": "⟨u, v⟩",
+    "name": "Inner Product",
+    "meaning": "A generalization of the dot product that defines geometric concepts like length and angle.",
+    "example": "The inner product is used in signal processing to measure how similar two signals are.",
+    "aliases": [
+      "(u|v)"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 118,
+    "category": "Geometry",
+    "symbol": "∠",
+    "name": "Angle",
+    "meaning": "The figure formed by two rays meeting at a common endpoint.",
+    "example": "The angle between the two hands of a clock at 3:00 is 90 degrees.",
+    "aliases": [],
+    "unicode": "U+2220"
+  },
+  {
+    "id": 119,
+    "category": "Geometry",
+    "symbol": "⊥",
+    "name": "Perpendicular, Orthogonal",
+    "meaning": "Two lines or vectors are at a right angle (90 degrees) to each other.",
+    "example": "The wall is perpendicular to the floor.",
+    "aliases": [],
+    "unicode": "U+22A5"
+  },
+  {
+    "id": 120,
+    "category": "Geometry",
+    "symbol": "∥",
+    "name": "Parallel",
+    "meaning": "Two lines in a plane that do not meet.",
+    "example": "The two rails of a train track are parallel.",
+    "aliases": [],
+    "unicode": "U+2225"
+  },
+  {
+    "id": 121,
+    "category": "Geometry",
+    "symbol": "°",
+    "name": "Degree",
+    "meaning": "A unit of measurement for angles.",
+    "example": "A full circle has 360 degrees.",
+    "aliases": [],
+    "unicode": "U+00B0"
+  },
+  {
+    "id": 122,
+    "category": "Geometry",
+    "symbol": "ΔABC",
+    "name": "Triangle",
+    "meaning": "A polygon with three edges and three vertices.",
+    "example": "The sail on the boat is shaped like a triangle.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 123,
+    "category": "Geometry",
+    "symbol": "∼",
+    "name": "Similarity",
+    "meaning": "Two geometric shapes are similar if they have the same shape, but possibly different sizes.",
+    "example": "A photograph is similar to the real-life scene it captures.",
+    "aliases": [
+      "~"
+    ],
+    "unicode": "U+223C"
+  },
+  {
+    "id": 124,
+    "category": "Abstract Algebra",
+    "symbol": "*",
+    "name": "Group Operation",
+    "meaning": "A binary operation on a set that satisfies certain axioms (closure, associativity, identity, invertibility).",
+    "example": "Addition is the group operation for the set of integers.",
+    "aliases": [
+      "•"
+    ],
+    "unicode": "U+002A"
+  },
+  {
+    "id": 125,
+    "category": "Abstract Algebra",
+    "symbol": "≅",
+    "name": "Isomorphism",
+    "meaning": "A structure-preserving mapping between two algebraic structures.",
+    "example": "The group of integers under addition is isomorphic to the group of even integers under addition, they have the same structure.",
+    "aliases": [],
+    "unicode": "U+2245"
+  },
+  {
+    "id": 126,
+    "category": "Abstract Algebra",
+    "symbol": "⊲",
+    "name": "Normal Subgroup",
+    "meaning": "A subgroup that is invariant under conjugation by members of the group of which it is a part.",
+    "example": "In the group of symmetries of a square, the subgroup of rotations is a normal subgroup.",
+    "aliases": [],
+    "unicode": "U+22B2"
+  },
+  {
+    "id": 127,
+    "category": "Abstract Algebra",
+    "symbol": "G/N",
+    "name": "Quotient Group",
+    "meaning": "A group obtained by aggregating similar elements of a larger group using an equivalence relation.",
+    "example": "The quotient group of integers modulo n describes clock arithmetic.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 128,
+    "category": "Abstract Algebra",
+    "symbol": "Hom(G, H)",
+    "name": "Homomorphism",
+    "meaning": "A structure-preserving map between two algebraic structures of the same type.",
+    "example": "A homomorphism maps the identity element of the first group to the identity element of the second group.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 129,
+    "category": "Abstract Algebra",
+    "symbol": "Aut(G)",
+    "name": "Automorphism Group",
+    "meaning": "The group of all isomorphisms from a group to itself.",
+    "example": "The automorphism group measures the symmetries of an object.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 130,
+    "category": "Number Sets",
+    "symbol": "ℤ",
+    "name": "Integers",
+    "meaning": "The set of whole numbers and their opposites (..., -2, -1, 0, 1, 2, ...).",
+    "example": "The change in temperature, in degrees, is always an integer.",
+    "aliases": [],
+    "unicode": "U+2124"
+  },
+  {
+    "id": 131,
+    "category": "Number Sets",
+    "symbol": "ℚ",
+    "name": "Rational Numbers",
+    "meaning": "The set of numbers that can be expressed as a fraction p/q of two integers.",
+    "example": "Any measurement made with a standard ruler is a rational number.",
+    "aliases": [],
+    "unicode": "U+211A"
+  },
+  {
+    "id": 132,
+    "category": "Number Sets",
+    "symbol": "ℝ",
+    "name": "Real Numbers",
+    "meaning": "The set of all rational and irrational numbers.",
+    "example": "The height of a person can be any real number within a certain range.",
+    "aliases": [],
+    "unicode": "U+211D"
+  },
+  {
+    "id": 133,
+    "category": "Number Sets",
+    "symbol": "ℂ",
+    "name": "Complex Numbers",
+    "meaning": "Numbers that can be expressed in the form a + bi, where a and b are real numbers and i is the imaginary unit.",
+    "example": "Complex numbers are used in electrical engineering to analyze AC circuits.",
+    "aliases": [],
+    "unicode": "U+2102"
+  },
+  {
+    "id": 134,
+    "category": "Number Sets",
+    "symbol": "ℕ",
+    "name": "Natural Numbers",
+    "meaning": "The set of positive integers (1, 2, 3, ...), sometimes including 0.",
+    "example": "The number of people in a room is a natural number.",
+    "aliases": [],
+    "unicode": "U+2115"
+  },
+  {
+    "id": 135,
+    "category": "Mathematical Constants",
+    "symbol": "π",
+    "name": "Pi",
+    "meaning": "The ratio of a circle's circumference to its diameter, approximately 3.14159.",
+    "example": "To find the area of a circular pizza, you need to use pi.",
+    "aliases": [],
+    "unicode": "U+03C0"
+  },
+  {
+    "id": 136,
+    "category": "Mathematical Constants",
+    "symbol": "e",
+    "name": "Euler's Number",
+    "meaning": "The base of the natural logarithm, approximately 2.71828.",
+    "example": "Euler's number is used to model continuous growth, like compound interest or population growth.",
+    "aliases": [],
+    "unicode": "U+0065"
+  },
+  {
+    "id": 137,
+    "category": "Mathematical Constants",
+    "symbol": "φ",
+    "name": "Golden Ratio",
+    "meaning": "A special number approximately equal to 1.618, often found in art, architecture, and nature.",
+    "example": "The proportions of the Parthenon are said to exhibit the golden ratio.",
+    "aliases": [],
+    "unicode": "U+03C6"
+  },
+  {
+    "id": 138,
+    "category": "Mathematical Constants",
+    "symbol": "i",
+    "name": "Imaginary Unit",
+    "meaning": "The number whose square is -1.",
+    "example": "The imaginary unit is a fundamental part of complex numbers used in wave mechanics.",
+    "aliases": [],
+    "unicode": "U+0069"
+  },
+  {
+    "id": 139,
+    "category": "Arithmetics",
+    "symbol": "√",
+    "name": "Square Root",
+    "meaning": "A number that, when multiplied by itself, gives the original number.",
+    "example": "The side length of a square with area 25 is the square root of 25, which is 5.",
+    "aliases": [
+      "sqrt"
+    ],
+    "unicode": "U+221A"
+  },
+  {
+    "id": 140,
+    "category": "Arithmetics",
+    "symbol": "!",
+    "name": "Factorial",
+    "meaning": "The product of all positive integers up to a given number.",
+    "example": "The number of ways to arrange 5 books on a shelf is 5 factorial (120).",
+    "aliases": [],
+    "unicode": "U+0021"
+  },
+  {
+    "id": 141,
+    "category": "Arithmetics",
+    "symbol": "|x|",
+    "name": "Absolute Value",
+    "meaning": "The distance of a number from zero on the number line.",
+    "example": "Whether you take 5 steps forward or 5 steps back, the absolute value of your displacement is 5 steps.",
+    "aliases": [
+      "abs(x)"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 142,
+    "category": "Trigonometry",
+    "symbol": "sin(x)",
+    "name": "Sine",
+    "meaning": "In a right triangle, the ratio of the length of the side opposite an angle to the length of the hypotenuse.",
+    "example": "Sine waves are used to model the oscillation of a pendulum.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 143,
+    "category": "Trigonometry",
+    "symbol": "cos(x)",
+    "name": "Cosine",
+    "meaning": "In a right triangle, the ratio of the length of the adjacent side to the length of the hypotenuse.",
+    "example": "Cosine is used in computer graphics to calculate lighting on surfaces.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 144,
+    "category": "Trigonometry",
+    "symbol": "tan(x)",
+    "name": "Tangent",
+    "meaning": "In a right triangle, the ratio of the length of the opposite side to the length of the adjacent side.",
+    "example": "We can find the height of a building by measuring the angle of elevation and using the tangent function.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 145,
+    "category": "Functions",
+    "symbol": "log(x)",
+    "name": "Logarithm",
+    "meaning": "The exponent to which a base must be raised to produce a given number.",
+    "example": "The Richter scale for earthquakes uses a logarithm to measure their severity.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 146,
+    "category": "Functions",
+    "symbol": "ln(x)",
+    "name": "Natural Logarithm",
+    "meaning": "A logarithm to the base e.",
+    "example": "The time it takes for a radioactive substance to decay is calculated using the natural logarithm.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 147,
+    "category": "Functions",
+    "symbol": "exp(x)",
+    "name": "Exponential Function",
+    "meaning": "The function e^x, where e is Euler's number.",
+    "example": "The spread of a virus can often be modeled with an exponential function.",
+    "aliases": [
+      "e^x"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 148,
+    "category": "Functions",
+    "symbol": "f(x)",
+    "name": "Function",
+    "meaning": "A relation between a set of inputs and a set of permissible outputs with the property that each input is related to exactly one output.",
+    "example": "Your final grade is a function of your test scores.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 149,
+    "category": "Complexity Theory",
+    "symbol": "O(n)",
+    "name": "Big O Notation",
+    "meaning": "Describes the upper bound of the time or space complexity of an algorithm.",
+    "example": "A simple search through a list has a Big O of n, because in the worst case you have to check every item.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 150,
+    "category": "Complexity Theory",
+    "symbol": "Ω(n)",
+    "name": "Big Omega Notation",
+    "meaning": "Describes the lower bound of the time or space complexity of an algorithm.",
+    "example": "Any algorithm that has to read all its inputs must have a complexity of at least Big Omega of n.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 151,
+    "category": "Complexity Theory",
+    "symbol": "Θ(n)",
+    "name": "Big Theta Notation",
+    "meaning": "Describes a tight bound on the time or space complexity of an algorithm.",
+    "example": "An algorithm with a complexity of Big Theta of n log n will perform consistently, without huge variations between best and worst cases.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 152,
+    "category": "Complexity Theory",
+    "symbol": "o(n)",
+    "name": "Little o Notation",
+    "meaning": "An upper bound that is not tight. The function grows strictly slower than the bound.",
+    "example": "A function that grows logarithmically is little o of n because it grows much slower than linearly.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 153,
+    "category": "Complexity Theory",
+    "symbol": "ω(n)",
+    "name": "Little omega Notation",
+    "meaning": "A lower bound that is not tight. The function grows strictly faster than the bound.",
+    "example": "An exponential function is little omega of n because it grows much faster than linearly.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 154,
+    "category": "Lattice Theory",
+    "symbol": "∨",
+    "name": "Join, Supremum",
+    "meaning": "The least upper bound of a subset of elements in a partially ordered set.",
+    "example": "In a hierarchy of managers, the join of two employees is their lowest common manager.",
+    "aliases": [
+      "sup"
+    ],
+    "unicode": "U+2228"
+  },
+  {
+    "id": 155,
+    "category": "Lattice Theory",
+    "symbol": "∧",
+    "name": "Meet, Infimum",
+    "meaning": "The greatest lower bound of a subset of elements in a partially ordered set.",
+    "example": "In a family tree, the meet of two siblings is the set of their parents.",
+    "aliases": [
+      "inf"
+    ],
+    "unicode": "U+2227"
+  },
+  {
+    "id": 156,
+    "category": "Order Theory",
+    "symbol": "≤",
+    "name": "Less than or equal to",
+    "meaning": "Indicates that one value is smaller than or identical to another.",
+    "example": "To get a discount, your purchase must be less than or equal to $100.",
+    "aliases": [
+      "<="
+    ],
+    "unicode": "U+2264"
+  },
+  {
+    "id": 157,
+    "category": "Order Theory",
+    "symbol": "≥",
+    "name": "Greater than or equal to",
+    "meaning": "Indicates that one value is larger than or identical to another.",
+    "example": "You must be greater than or equal to 18 years old to vote.",
+    "aliases": [
+      ">="
+    ],
+    "unicode": "U+2265"
+  },
+  {
+    "id": 158,
+    "category": "Greek Alphabet",
+    "symbol": "α",
+    "name": "Alpha",
+    "meaning": "Often used to represent angles, coefficients, or a significance level in statistics.",
+    "example": "In our statistical test, we set the alpha level to 0.05.",
+    "aliases": [],
+    "unicode": "U+03B1"
+  },
+  {
+    "id": 159,
+    "category": "Greek Alphabet",
+    "symbol": "β",
+    "name": "Beta",
+    "meaning": "Often used to represent angles, coefficients in regression, or the probability of a Type II error in statistics.",
+    "example": "The beta coefficient in our model shows the effect of advertising on sales.",
+    "aliases": [],
+    "unicode": "U+03B2"
+  },
+  {
+    "id": 160,
+    "category": "Greek Alphabet",
+    "symbol": "Γ, γ",
+    "name": "Gamma",
+    "meaning": "Used for the Gamma function in mathematics or gamma rays in physics.",
+    "example": "The gamma distribution is often used to model waiting times.",
+    "aliases": [],
+    "unicode": "U+0393, U+03B3"
+  },
+  {
+    "id": 161,
+    "category": "Greek Alphabet",
+    "symbol": "Δ, δ",
+    "name": "Delta",
+    "meaning": "Represents change, difference, or the discriminant of a polynomial.",
+    "example": "Delta-V is the change in velocity needed for a spacecraft to perform a maneuver.",
+    "aliases": [],
+    "unicode": "U+0394, U+03B4"
+  },
+  {
+    "id": 162,
+    "category": "Greek Alphabet",
+    "symbol": "Ε, ε",
+    "name": "Epsilon",
+    "meaning": "Represents a small positive quantity, especially in limits and proofs.",
+    "example": "For the limit to exist, the function's value must be within epsilon of L.",
+    "aliases": [],
+    "unicode": "U+0395, U+03B5"
+  },
+  {
+    "id": 163,
+    "category": "Greek Alphabet",
+    "symbol": "Ζ, ζ",
+    "name": "Zeta",
+    "meaning": "Known for the Riemann Zeta function, related to the distribution of prime numbers.",
+    "example": "The Riemann Hypothesis is a conjecture about the zeros of the Riemann zeta function.",
+    "aliases": [],
+    "unicode": "U+0396, U+03B6"
+  },
+  {
+    "id": 164,
+    "category": "Greek Alphabet",
+    "symbol": "Η, η",
+    "name": "Eta",
+    "meaning": "Often used to denote efficiency in physics or elasticity in economics.",
+    "example": "The efficiency, eta, of this engine is about 30%.",
+    "aliases": [],
+    "unicode": "U+0397, U+03B7"
+  },
+  {
+    "id": 165,
+    "category": "Greek Alphabet",
+    "symbol": "Θ, θ",
+    "name": "Theta",
+    "meaning": "Commonly used to represent an angle in geometry or a parameter in statistics.",
+    "example": "We need to find the angle theta to calculate the projectile's trajectory.",
+    "aliases": [],
+    "unicode": "U+0398, U+03B8"
+  },
+  {
+    "id": 166,
+    "category": "Greek Alphabet",
+    "symbol": "Ι, ι",
+    "name": "Iota",
+    "meaning": "Less common, but can represent an inclusion map in mathematics.",
+    "example": "The iota subscript is used in some notations for Greek vowels.",
+    "aliases": [],
+    "unicode": "U+0399, U+03B9"
+  },
+  {
+    "id": 167,
+    "category": "Greek Alphabet",
+    "symbol": "Κ, κ",
+    "name": "Kappa",
+    "meaning": "Used to denote curvature in differential geometry or connectivity in graph theory.",
+    "example": "Cohen's kappa measures inter-rater agreement for categorical items.",
+    "aliases": [],
+    "unicode": "U+039A, U+03BA"
+  },
+  {
+    "id": 168,
+    "category": "Greek Alphabet",
+    "symbol": "Μ, μ",
+    "name": "Mu",
+    "meaning": "Represents the population mean in statistics or the coefficient of friction in physics.",
+    "example": "The average height (mu) of the population is 175cm.",
+    "aliases": [],
+    "unicode": "U+039C, U+03BC"
+  },
+  {
+    "id": 169,
+    "category": "Greek Alphabet",
+    "symbol": "Ν, ν",
+    "name": "Nu",
+    "meaning": "Used to represent frequency in physics or degrees of freedom in statistics.",
+    "example": "The frequency nu of the light determines its color.",
+    "aliases": [],
+    "unicode": "U+039D, U+03BD"
+  },
+  {
+    "id": 170,
+    "category": "Greek Alphabet",
+    "symbol": "Ξ, ξ",
+    "name": "Xi",
+    "meaning": "Used to denote a random variable or a position vector.",
+    "example": "The partition function in statistical mechanics is often denoted by Xi.",
+    "aliases": [],
+    "unicode": "U+039E, U+03BE"
+  },
+  {
+    "id": 171,
+    "category": "Greek Alphabet",
+    "symbol": "Ο, ο",
+    "name": "Omicron",
+    "meaning": "Rarely used to avoid confusion with the number 0. Sometimes used in complexity theory for little-o notation.",
+    "example": "This algorithm's complexity is little omicron of n-squared.",
+    "aliases": [],
+    "unicode": "U+039F, U+03BF"
+  },
+  {
+    "id": 172,
+    "category": "Greek Alphabet",
+    "symbol": "Ρ, ρ",
+    "name": "Rho",
+    "meaning": "Represents density in physics or the correlation coefficient in statistics.",
+    "example": "The density rho of water is approximately 1000 kg/m³.",
+    "aliases": [],
+    "unicode": "U+03A1, U+03C1"
+  },
+  {
+    "id": 173,
+    "category": "Greek Alphabet",
+    "symbol": "Τ, τ",
+    "name": "Tau",
+    "meaning": "Represents torque in physics, a specific type of shear stress, or a time constant.",
+    "example": "The torque, tau, required to tighten the bolt is 50 newton-meters.",
+    "aliases": [],
+    "unicode": "U+03A4, U+03C4"
+  },
+  {
+    "id": 174,
+    "category": "Greek Alphabet",
+    "symbol": "Υ, υ",
+    "name": "Upsilon",
+    "meaning": "Used in particle physics to denote the Upsilon meson.",
+    "example": "The Upsilon particle is composed of a bottom quark and its antiquark.",
+    "aliases": [],
+    "unicode": "U+03A5, U+03C5"
+  },
+  {
+    "id": 175,
+    "category": "Greek Alphabet",
+    "symbol": "Χ, χ",
+    "name": "Chi",
+    "meaning": "Used for the Chi-squared distribution in statistics or magnetic susceptibility in physics.",
+    "example": "We performed a chi-squared test to check if the results were significant.",
+    "aliases": [],
+    "unicode": "U+03A7, U+03C7"
+  },
+  {
+    "id": 176,
+    "category": "Greek Alphabet",
+    "symbol": "Ψ, ψ",
+    "name": "Psi",
+    "meaning": "Represents the wave function in quantum mechanics or the polygamma function in mathematics.",
+    "example": "The square of the psi function gives the probability of finding a particle at a certain point.",
+    "aliases": [],
+    "unicode": "U+03A8, U+03C8"
+  },
+  {
+    "id": 177,
+    "category": "Greek Alphabet",
+    "symbol": "Ω, ω",
+    "name": "Omega",
+    "meaning": "Represents angular velocity in physics, the last ordinal number, or an asymptotic lower bound in complexity theory.",
+    "example": "The angular velocity omega of the spinning top is decreasing.",
+    "aliases": [],
+    "unicode": "U+03A9, U+03C9"
+  },
+  {
+    "id": 178,
+    "category": "Proofs",
+    "symbol": "iff",
+    "name": "If and only if",
+    "meaning": "A shorthand for the biconditional logical connective ↔.",
+    "example": "A polygon has three sides iff it is a triangle.",
+    "aliases": [
+      "↔"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 179,
+    "category": "Proofs",
+    "symbol": "w.l.o.g.",
+    "name": "Without loss of generality",
+    "meaning": "Indicates that the proof assumes something for simplicity, but that the argument holds for all cases.",
+    "example": "W.L.O.G., assume the first number is the largest; the same logic applies if any other number is largest.",
+    "aliases": [
+      "WLOG"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 180,
+    "category": "Proofs",
+    "symbol": "Q.E.D.",
+    "name": "Quod Erat Demonstrandum",
+    "meaning": "Latin for 'what was to be shown', traditionally placed at the end of a mathematical proof.",
+    "example": "...and therefore, all even numbers are divisible by 2, Q.E.D.",
+    "aliases": [
+      "∎"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 181,
+    "category": "Logic",
+    "symbol": "s.t.",
+    "name": "Such that, So that",
+    "meaning": "A common abbreviation used to introduce a condition or constraint.",
+    "example": "Find all numbers x s.t. x is greater than 5.",
+    "aliases": [
+      "|",
+      ":"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 182,
+    "category": "Set Theory",
+    "symbol": "⟨...⟩",
+    "name": "Sequence, Tuple",
+    "meaning": "An ordered list of elements.",
+    "example": "The coordinates are represented by the sequence ⟨x, y, z⟩.",
+    "aliases": [
+      "(...)"
+    ],
+    "unicode": "U+27E8, U+27E9"
+  },
+  {
+    "id": 183,
+    "category": "Set Theory",
+    "symbol": "[a, b]",
+    "name": "Closed Interval",
+    "meaning": "The set of all real numbers between a and b, including a and b.",
+    "example": "The temperature range for the experiment is [10, 20] degrees Celsius.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 184,
+    "category": "Set Theory",
+    "symbol": "(a, b)",
+    "name": "Open Interval",
+    "meaning": "The set of all real numbers between a and b, excluding a and b.",
+    "example": "The acceptable margin of error is in the open interval (-0.1, 0.1).",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 185,
+    "category": "Geometry",
+    "symbol": "∡",
+    "name": "Measured Angle",
+    "meaning": "Used to denote the measurement of an angle.",
+    "example": "The measured angle of the ramp is 15 degrees.",
+    "aliases": [],
+    "unicode": "U+2221"
+  },
+  {
+    "id": 186,
+    "category": "Model Theory",
+    "symbol": "⊧",
+    "name": "Satisfies",
+    "meaning": "A model satisfies a formula if the formula is true in that model.",
+    "example": "The model of a sunny day satisfies the statement 'The sun is shining'.",
+    "aliases": [
+      "models"
+    ],
+    "unicode": "U+22A7"
+  },
+  {
+    "id": 187,
+    "category": "Identity & Relations",
+    "symbol": "≜",
+    "name": "Equal by definition",
+    "meaning": "Indicates that the equality is true by definition.",
+    "example": "Profit is equal by definition to revenue minus costs.",
+    "aliases": [
+      "≝"
+    ],
+    "unicode": "U+225C"
+  },
+  {
+    "id": 188,
+    "category": "Functions",
+    "symbol": "⌊x⌋",
+    "name": "Floor function",
+    "meaning": "The greatest integer that is less than or equal to x.",
+    "example": "If you have 4.7 pizzas, the floor function says you have 4 whole pizzas.",
+    "aliases": [
+      "floor(x)"
+    ],
+    "unicode": "U+230A, U+230B"
+  },
+  {
+    "id": 189,
+    "category": "Functions",
+    "symbol": "⌈x⌉",
+    "name": "Ceiling function",
+    "meaning": "The smallest integer that is greater than or equal to x.",
+    "example": "If you need 4.2 gallons of paint, the ceiling function means you must buy 5 gallons.",
+    "aliases": [
+      "ceil(x)"
+    ],
+    "unicode": "U+2308, U+2309"
+  },
+  {
+    "id": 190,
+    "category": "Calculus",
+    "symbol": "f′",
+    "name": "Prime, First Derivative",
+    "meaning": "Lagrange's notation for the first derivative of a function f.",
+    "example": "The prime symbol indicates the rate of change, like the speed of a car.",
+    "aliases": [
+      "'"
+    ],
+    "unicode": "U+2032"
+  },
+  {
+    "id": 191,
+    "category": "Calculus",
+    "symbol": "f″",
+    "name": "Double Prime, Second Derivative",
+    "meaning": "Lagrange's notation for the second derivative of a function f.",
+    "example": "The double prime indicates the rate of change of the rate of change, like the acceleration of a car.",
+    "aliases": [
+      "''"
+    ],
+    "unicode": "U+2033"
+  },
+  {
+    "id": 192,
+    "category": "Probability & Statistics",
+    "symbol": "⊥⊥",
+    "name": "Independence",
+    "meaning": "Two events are independent if the occurrence of one does not affect the probability of the other.",
+    "example": "The outcome of two consecutive coin flips are independent events.",
+    "aliases": [],
+    "unicode": "U+22A5 U+22A5"
+  },
+  {
+    "id": 193,
+    "category": "Probability & Statistics",
+    "symbol": "Cov(X,Y)",
+    "name": "Covariance",
+    "meaning": "A measure of the joint variability of two random variables.",
+    "example": "The covariance between height and weight is positive, as taller people tend to be heavier.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 194,
+    "category": "Probability & Statistics",
+    "symbol": "ρ(X,Y)",
+    "name": "Correlation",
+    "meaning": "A normalized measure of the linear relationship between two random variables, between -1 and 1.",
+    "example": "The correlation between study time and exam scores is strong and positive.",
+    "aliases": [
+      "corr(X,Y)"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 195,
+    "category": "Probability & Statistics",
+    "symbol": "~",
+    "name": "Is distributed as",
+    "meaning": "Indicates that a random variable follows a specific probability distribution.",
+    "example": "The height of adult males is distributed as a normal distribution.",
+    "aliases": [],
+    "unicode": "U+007E"
+  },
+  {
+    "id": 196,
+    "category": "Probability & Statistics",
+    "symbol": "N(μ,σ²)",
+    "name": "Normal Distribution",
+    "meaning": "A continuous probability distribution that is symmetrical around its mean, often called the bell curve.",
+    "example": "Test scores in a large class often follow a normal distribution.",
+    "aliases": [
+      "Gaussian distribution"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 197,
+    "category": "Probability & Statistics",
+    "symbol": "U(a,b)",
+    "name": "Uniform Distribution",
+    "meaning": "A probability distribution where all outcomes are equally likely.",
+    "example": "The outcome of a single roll of a fair die follows a uniform distribution.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 198,
+    "category": "Topology",
+    "symbol": "int(A)",
+    "name": "Interior of A",
+    "meaning": "The largest open set contained in A.",
+    "example": "The interior of a fenced yard is the grassy area, not including the fence itself.",
+    "aliases": [
+      "A°"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 199,
+    "category": "Topology",
+    "symbol": "∂A",
+    "name": "Boundary of A",
+    "meaning": "The set of points which can be approached both from A and from the complement of A.",
+    "example": "The boundary of a country is its border.",
+    "aliases": [],
+    "unicode": "U+2202"
+  },
+  {
+    "id": 200,
+    "category": "Calculus",
+    "symbol": "→",
+    "name": "Approaches, Tends to",
+    "meaning": "Indicates that a variable approaches a specific value in a limit.",
+    "example": "As time approaches infinity, the speed of the decelerating car tends to zero.",
+    "aliases": [],
+    "unicode": "U+2192"
+  },
+  {
+    "id": 201,
+    "category": "Linear Algebra",
+    "symbol": "∘",
+    "name": "Hadamard Product",
+    "meaning": "An element-wise product of two matrices of the same dimensions.",
+    "example": "The Hadamard product can be used to apply a filter to an image in digital image processing.",
+    "aliases": [
+      "⊙"
+    ],
+    "unicode": "U+2218"
+  },
+  {
+    "id": 202,
+    "category": "Category Theory",
+    "symbol": "coprod",
+    "name": "Coproduct",
+    "meaning": "A construction that is the dual of the product; for sets, it is the disjoint union.",
+    "example": "The coproduct of the set of cats and the set of dogs is a new set containing all cats and all dogs, where each animal's origin is tracked.",
+    "aliases": [
+      "∐",
+      "⊔"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 203,
+    "category": "Category Theory",
+    "symbol": "prod",
+    "name": "Product",
+    "meaning": "A construction that generalizes concepts like the Cartesian product of sets or the direct product of groups.",
+    "example": "The product of the set of shirt styles and the set of pant styles gives all possible outfits.",
+    "aliases": [
+      "∏"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 204,
+    "category": "Category Theory",
+    "symbol": "Hom(A,B)",
+    "name": "Set of morphisms",
+    "meaning": "The collection of all arrows (structure-preserving maps) from object A to object B.",
+    "example": "In the category of people, Hom(Alice, Bob) could be the set of all ways Alice can communicate with Bob.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 205,
+    "category": "Category Theory",
+    "symbol": "Ob(C)",
+    "name": "Objects of a category",
+    "meaning": "The collection of all objects in a category C.",
+    "example": "The objects of the category of a subway system are the stations.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 206,
+    "category": "Category Theory",
+    "symbol": "A ⊕ B",
+    "name": "Biproduct",
+    "meaning": "A construction that is simultaneously a product and a coproduct.",
+    "example": "In the category of vector spaces, the direct sum is a biproduct.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 207,
+    "category": "Set Theory",
+    "symbol": "⋂",
+    "name": "N-ary Intersection",
+    "meaning": "The intersection of a collection of sets.",
+    "example": "The list of students enrolled in all three required classes is the n-ary intersection of the three class rosters.",
+    "aliases": [],
+    "unicode": "U+22C2"
+  },
+  {
+    "id": 208,
+    "category": "Set Theory",
+    "symbol": "⋃",
+    "name": "N-ary Union",
+    "meaning": "The union of a collection of sets.",
+    "example": "The master list of all club members in the school is the n-ary union of the membership lists of all individual clubs.",
+    "aliases": [],
+    "unicode": "U+22C3"
+  },
+  {
+    "id": 209,
+    "category": "Set Theory",
+    "symbol": "⊎",
+    "name": "Disjoint Union",
+    "meaning": "The union of a collection of pairwise disjoint sets.",
+    "example": "A library's collection is the disjoint union of its fiction and non-fiction sections.",
+    "aliases": [
+      "⊔"
+    ],
+    "unicode": "U+228E"
+  },
+  {
+    "id": 210,
+    "category": "Group Theory",
+    "symbol": "⋊",
+    "name": "Right Semidirect Product",
+    "meaning": "A way to construct a new group from two groups, one of which acts on the other.",
+    "example": "The group of symmetries of a square can be constructed as a semidirect product of the rotation group and a reflection group.",
+    "aliases": [],
+    "unicode": "U+22CA"
+  },
+  {
+    "id": 211,
+    "category": "Group Theory",
+    "symbol": "⋉",
+    "name": "Left Semidirect Product",
+    "meaning": "A way to construct a new group from two groups, one of which acts on the other.",
+    "example": "The Euclidean group of motions (rotations and translations) is a semidirect product.",
+    "aliases": [],
+    "unicode": "U+22C9"
+  },
+  {
+    "id": 212,
+    "category": "Group Theory",
+    "symbol": "⟨S⟩",
+    "name": "Group generated by S",
+    "meaning": "The smallest subgroup containing the set S.",
+    "example": "The group of integers under addition is generated by the set {1}.",
+    "aliases": [],
+    "unicode": "U+27E8, U+27E9"
+  },
+  {
+    "id": 213,
+    "category": "Group Theory",
+    "symbol": "Z(G)",
+    "name": "Center of a group",
+    "meaning": "The set of elements that commute with every element of the group.",
+    "example": "The center of a group of people at a round table would be those who can switch places with anyone else without changing the group's overall arrangement.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 214,
+    "category": "Group Theory",
+    "symbol": "[G,G]",
+    "name": "Commutator subgroup",
+    "meaning": "The subgroup generated by all the commutators, measuring how far the group is from being abelian (commutative).",
+    "example": "For a commutative group like addition of numbers, the commutator subgroup is just {0}, because the order of operations never matters.",
+    "aliases": [],
+    "unicode": null
+  },
+  {
+    "id": 215,
+    "category": "Logic",
+    "symbol": "i.e.",
+    "name": "id est (that is)",
+    "meaning": "Used to provide clarification or restate something in different terms.",
+    "example": "The final exam is comprehensive, i.e., it covers all topics from the semester.",
+    "aliases": [
+      "that is"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 216,
+    "category": "Logic",
+    "symbol": "e.g.",
+    "name": "exempli gratia (for example)",
+    "meaning": "Used to introduce one or more examples.",
+    "example": "Many countries are in the northern hemisphere, e.g., Canada, France, and Japan.",
+    "aliases": [
+      "for example"
+    ],
+    "unicode": null
+  },
+  {
+    "id": 217,
+    "category": "Order Theory",
+    "symbol": "≽",
+    "name": "Succeeds or is equal to",
+    "meaning": "An element comes after or is the same as another in a partial order.",
+    "example": "In a project timeline, the testing phase succeeds or is equal to the build phase (it can't start before).",
+    "aliases": [],
+    "unicode": "U+227D"
+  },
+  {
+    "id": 218,
+    "category": "Order Theory",
+    "symbol": "≼",
+    "name": "Precedes or is equal to",
+    "meaning": "An element comes before or is the same as another in a partial order.",
+    "example": "To qualify for the next round, your score must precede or be equal to the top score.",
+    "aliases": [],
+    "unicode": "U+227C"
+  },
+  {
+    "id": 219,
+    "category": "Identity & Relations",
+    "symbol": "≌",
+    "name": "All equal to",
+    "meaning": "Indicates that all items in a set are equal.",
+    "example": "For a fair distribution, the shares must be all equal to each other.",
+    "aliases": [],
+    "unicode": "U+224C"
+  },
+  {
+    "id": 220,
+    "category": "Proofs",
+    "symbol": "∎",
+    "name": "End of Proof (Tombstone)",
+    "meaning": "A modern symbol used to mark the end of a mathematical proof.",
+    "example": "...which completes the argument. ∎",
+    "aliases": [
+      "Q.E.D.",
+      "Halmos"
+    ],
+    "unicode": "U+220E"
+  }
+]

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argus Pro V2.4 - Final Polish</title>
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>Argus Pro V2.4</h1>
+        <p>The Integrated Argument Builder</p>
+    </header>
+
+    <div class="main-container">
+        <!-- Panel 1: The Editor -->
+        <div class="panel" id="editor-panel">
+            <div class="content-container">
+                <div class="editor-toolbar">
+                    <button class="format-btn" data-command="bold"><b>B</b></button>
+                    <button class="format-btn" data-command="italic"><i>I</i></button>
+                    <button class="format-btn" data-command="formatBlock" data-value="H1">H1</button>
+                    <button class="format-btn" data-command="formatBlock" data-value="H2">H2</button>
+                    <button class="format-btn" data-command="formatBlock" data-value="H3">H3</button>
+                    <button class="format-btn" data-command="formatBlock" data-value="P">P</button>
+                    <button class="format-btn" data-command="insertUnorderedList">UL</button>
+                    <button class="format-btn" data-command="indent">Indent</button>
+                    <button class="format-btn" data-command="outdent">Outdent</button>
+                </div>
+                <div id="textEditor" class="text-editor" contenteditable="true" spellcheck="false"></div>
+            </div>
+        </div>
+
+        <div class="resizer" id="resizer-left"></div>
+
+        <!-- Panel 2: The Visualizer -->
+        <div class="panel" id="visualizer-panel">
+            <div class="content-container">
+                <div class="export-bar">
+                    <button class="format-btn" id="export-image">Export Image</button>
+                    <button class="format-btn" id="export-markdown">Export Markdown</button>
+                </div>
+                <div id="visualizer"></div>
+            </div>
+        </div>
+
+        <div class="resizer" id="resizer-right"></div>
+
+        <!-- Panel 3: The Toolbox -->
+        <div class="panel" id="toolbox-panel">
+            <div class="content-container" id="toolbox-container">
+                <div class="toolbox-section">
+                    <h3>Definitions</h3>
+                    <div class="definition-input-group">
+                        <input type="text" id="definitionInput" placeholder="D: Aggregate Demand">
+                        <button id="defineBtn" class="format-btn">Define</button>
+                    </div>
+                    <div class="variable-list" id="variableList">
+                        <p class="placeholder-text">Defined variables appear here.</p>
+                    </div>
+                </div>
+
+                <div class="toolbox-section">
+                    <h3>Symbols</h3>
+                    <div class="symbol-filters" id="symbolFilters"></div>
+                    <div class="periodic-grid" id="periodicGrid"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tooltip Element -->
+    <div class="tooltip" id="tooltip"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
