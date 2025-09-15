@@ -188,5 +188,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgements
 
-*   Developed by [Your Name/Alias]
+*   Developed by Crist Yaghjian and AI
+
 *   Uses [html2canvas](https://html2canvas.hertzen.com/) for image export.
