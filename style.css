@@ -617,9 +617,11 @@ body.resizing * {
 
 /* --- RESPONSIVE BREAKPOINT --- */
 @media (max-width: 1200px) {
-    body {
+       body {
         overflow: auto;
+        display: block;
     }
+
 
     .main-container {
         flex-direction: column;
@@ -636,4 +638,5 @@ body.resizing * {
         flex-basis: auto;
         border-top: 2px solid var(--bg-dark);
     }
+
 }
